@@ -1,0 +1,29 @@
+# Frontend
+frontend/node_modules
+frontend/dist
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.DS_Store
+
+# Backend
+backend/node_modules
+backend/.env
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/yarn-error.log*
+backend/.DS_Store
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
